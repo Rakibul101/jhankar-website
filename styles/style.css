@@ -1,53 +1,90 @@
-body{
+body {
     margin: 0;
 }
-.banner{
-    background-image: url('../images/top-banner.png');
-    background-repeat: no-repeat;
-    height:1000px;
+
+section {
+    height: 500px;
+    padding-bottom: 180px;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.banner{
+
+.banner {
     background-image: url('../images/top-banner.png');
     background-repeat: no-repeat;
     height: 400px;
 }
-.orange{
+
+.orange {
     color: orange;
 }
-.nav{
+
+.nav {
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
     float: left;
 }
-.nav img{
+
+.nav img {
     width: 100%;
-} 
-p{
+}
+
+.paragraph {
     color: rgb(168, 105, 105);
 }
-.btn{
+
+.btn {
     background-color: tomato;
     border: none;
     border-radius: 5px;
     font-weight: 700;
     padding: 10px 20px;
     color: white;
-    
+
 }
-.dream{
-    background-image: url(../images/dream-bg.png);
+
+.dream {
+    background-image: url('../images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
 
 }
-h2{
-    font-size: 40px;
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
 }
-section{
-    height: 500px;
-    padding-bottom: 180px;
+.last-section{
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.web-development{
+    display: flex;
+}
+.full-stack{
+    width: 50%;
+    margin: 70px;
+    padding: 30px;
+    border-left:10px solid red;
+    background-color: white;
+    box-shadow: 10px 10px 30px rgb(135, 115, 115);
+}
+.baby-web{
+    margin: 70px;
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border-left:10px solid blue;
+    box-shadow: 10px 10px 30px rgb(135, 115, 115);
+}
+.bold{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
 }
